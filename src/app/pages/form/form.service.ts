@@ -6,4 +6,9 @@ import { Injectable } from '@angular/core';
 export class FormService {
 
   constructor() { }
+
+  sendEmail(){
+    console.log('Send email.');
+    
+  }
 }
